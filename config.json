@@ -1,0 +1,17 @@
+{
+    "local":{
+        "logger":{"loggerLevel":"INFO"},
+        "connection":{
+            "host":"127.0.0.1",
+            "dbname":"sendEmail",
+            "user":"postgres",
+            "password":"password",
+            "port":"5432"
+        },
+        "applicationbook_col" :["user_id", "created_at", "title", "link", "image", "author", "price", "discount", "publisher", "pubdate", "isbn", "descriptions", "status", "reason", "application_num", "update_at","update_num"]
+    },
+    "datetime":{
+        "oneday":1
+    },
+    "delete_data_month":3
+}
